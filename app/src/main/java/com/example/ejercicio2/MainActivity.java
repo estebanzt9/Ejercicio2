@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
         mMap.getUiSettings().setZoomControlsEnabled(true);
+
         LatLng ubicacion = new LatLng(4.652707040760889, -74.14454190393289);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ubicacion,17));
     }
